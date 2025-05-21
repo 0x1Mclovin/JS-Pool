@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Blog Home</title>
+	<script src="https://cdn.tailwindcss.com"></script>
+	<style>
+		/* Custom styles for hover effects and additional tweaks */
+		.card {
+			transition: transform 0.3s ease, box-shadow 0.3s ease;
+		}
+		.card:hover {
+			transform: translateY(-5px);
+			box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+		}
+		.read-more:hover {
+			background-color: #1d4ed8;
+		}
+	</style>
+</head>
+<body class="bg-gray-100 font-sans">
+	<!-- Header -->
+	<header class="bg-white shadow">
+		<nav class="container mx-auto px-4 py-4 flex justify-between items-center">
+			<h1 class="text-2xl font-bold text-blue-700">My Blog</h1>
+			<ul class="flex space-x-6">
+				<li><a href="/home" class="text-gray-600 hover:text-blue-700">Home</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<!-- Blogs Section -->
+	<main class="container mx-auto px-4 py-8">
+		<h1 class="text-4xl font-bold text-center text-gray-800 mb-8">BLOGS</h1>
+		<div class="blogs-container grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+			<!-- Blog Card -->
+			{%BLOG-CARDS%}
+		</div>
+	</main>
+
+	<!-- Footer -->
+	<footer class="bg-gray-800 text-white py-6">
+		<div class="container mx-auto px-4 text-center">
+			<p>&copy; 2025 My Blog. All rights reserved.</p>
+			<div class="mt-4">
+				<a href="#" class="text-gray-400 hover:text-white mx-2">Privacy Policy</a>
+				<a href="#" class="text-gray-400 hover:text-white mx-2">Terms of Service</a>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
