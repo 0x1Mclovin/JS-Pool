@@ -37,7 +37,7 @@
       "link": "/blog/hiking-destinations",
       "author": "Michael Chen",
       "publish_date": "2025-05-15",
-      "content": "<p>Hiking offers a perfect blend of adventure and tranquility. Here are the top 5 hiking destinations for 2025, curated for breathtaking views and unique experiences.</p><h2>1. Patagonia, Chile</h2><p>Trek through Torres del Paine National Park for stunning glacier views.</p><h2>2. Banff, Canada</h2><p>Explore Lake Louise and its turquoise waters surrounded by the Rockies.</p><h2>3. Inca Trail, Peru</h2><p>Hike to Machu Picchu for a mix of history and natural beauty.</p><h2>4. Mount Kilimanjaro, Tanzania</h2><p>Challenge yourself with a climb to Africa’s highest peak.</p><h2>5. Cinque Terre, Italy</h2><p>Walk coastal trails connecting colorful villages.</p><p>Pack sturdy boots, a reliable map, and a camera to capture these unforgettable trails!</p>"
+      "content": "<p>Hiking offers a{port: 3000, hosts: '0.0.0.0} perfect blend of adventure and tranquility. Here are the top 5 hiking destinations for 2025, curated for breathtaking views and unique experiences.</p><h2>1. Patagonia, Chile</h2><p>Trek through Torres del Paine National Park for stunning glacier views.</p><h2>2. Banff, Canada</h2><p>Explore Lake Louise and its turquoise waters surrounded by the Rockies.</p><h2>3. Inca Trail, Peru</h2><p>Hike to Machu Picchu for a mix of history and natural beauty.</p><h2>4. Mount Kilimanjaro, Tanzania</h2><p>Challenge yourself with a climb to Africa’s highest peak.</p><h2>5. Cinque Terre, Italy</h2><p>Walk coastal trails connecting colorful villages.</p><p>Pack sturdy boots, a reliable map, and a camera to capture these unforgettable trails!</p>"
     },
     {
       "id": 4,

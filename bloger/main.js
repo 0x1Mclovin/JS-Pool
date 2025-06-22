@@ -33,6 +33,6 @@ http.createServer((req, res) => {
 		res.end("Method not allowed");
 	}
 
-}).listen(8080, () => {
+}).listen(3000, () => {
 	console.log("Listening on port 8080");
 })
