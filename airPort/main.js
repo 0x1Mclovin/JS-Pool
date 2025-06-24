@@ -88,7 +88,7 @@ fastify.put('/airport/:id', {schema: postSchema, idSchema}, async (req, reply) =
 		`;
 		const person = db.prepare(query1);
 		person.run(username, email, id);
-		const query2 = `
+		const query2 = fastify`
 			UPDATE Passports SET passport_number = ? WHERE id = ?
 		`;
 		const passport = db.prepare(query2);
