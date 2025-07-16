@@ -22,7 +22,6 @@ function signRefreshToken(payload) {
 }
 
 function verifyRefreshToken(token) {
-	console.log('\n\n' + token + '\n\n')
 	const value = jwt.verify(token, process.env.REFRESH_TOKEN_SECRET);
 	return value
 }
